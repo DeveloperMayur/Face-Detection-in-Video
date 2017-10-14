@@ -1,0 +1,35 @@
+//buildscript {
+//    repositories {
+//        mavenCentral()
+//    }
+//
+//
+//    dependencies {
+//        classpath 'com.android.tools.build:gradle:2.3.1'
+//    }
+//}
+
+apply plugin: 'com.android.library'
+
+
+android {
+    compileSdkVersion 21
+    buildToolsVersion '26.0.2'
+
+    defaultConfig {
+        minSdkVersion 14
+        targetSdkVersion 21
+    }
+
+}
+
+dependencies {
+
+}
+
+repositories {
+    maven {
+        url 'https://maven.google.com/'
+        name 'Google'
+    }
+}
